@@ -19,3 +19,29 @@ git config --global user.email "??????@gamil.com"
 5.移動到指定目錄
 
 cd C:
+
+6.退回上一層
+
+cd ..
+
+7.
+
+ls -al
+
+8.建立.git的隱藏資料夾(代表這個地方受到git控管)
+
+git init 
+
+9.全部加入控管
+
+git add .(點前面有空白) 
+
+10.commit 到下一個位置
+
+git commit -m "create aaa"
+
+11.修改完的檔案丟回暫存區
+
+git add . (點前面有空白) 
+
+12.
